@@ -10,16 +10,13 @@ or edit http://codepen.io/yosa/full/LxEYML/
 # Screenshot
 
 <p align="center">
-  <b>Login</b><br>
     <img src="https://raw.githubusercontent.com/yosa/melisa-pens-discussions/master/screenshot/login.png">
 </p>
 
 <p align="center">
-    <b>Logged in</b><br>
     <img src="https://raw.githubusercontent.com/yosa/melisa-pens-discussions/master/screenshot/loggedIn.png">
 </p>
 
 <p align="center">
-    <b>Discussions</b><br>
     <img src="https://raw.githubusercontent.com/yosa/melisa-pens-discussions/master/screenshot/discussions2.png">
 </p>
