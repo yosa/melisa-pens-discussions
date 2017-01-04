@@ -11,15 +11,15 @@ or edit http://codepen.io/yosa/full/LxEYML/
 
 <p align="center">
   <b>Login</b><br>
-![alt tag](https://raw.githubusercontent.com/yosa/melisa-pens-discussions/master/screenshot/login.png)
+    <img src="https://raw.githubusercontent.com/yosa/melisa-pens-discussions/master/screenshot/login.png">
 </p>
 
 <p align="center">
-  <b>Logged in</b><br>
-![alt tag](https://raw.githubusercontent.com/yosa/melisa-pens-discussions/master/screenshot/loggedIn.png)
+    <b>Logged in</b><br>
+    <img src="https://raw.githubusercontent.com/yosa/melisa-pens-discussions/master/screenshot/loggedIn.png">
 </p>
 
 <p align="center">
-  <b>Discussions</b><br>
-![alt tag](https://raw.githubusercontent.com/yosa/melisa-pens-discussions/master/screenshot/discussions2.png)
+    <b>Discussions</b><br>
+    <img src="https://raw.githubusercontent.com/yosa/melisa-pens-discussions/master/screenshot/discussions2.png">
 </p>
