@@ -36,7 +36,7 @@ Ext.define('Melisa.pens.view.discussions.Wrapper', {
             },
             items: [
                 {
-                    xtype: 'textareafield',
+                    xtype: 'textfield',
                     reference: 'description',
                     placeHolder: 'Write your question',
                     flex: 1,

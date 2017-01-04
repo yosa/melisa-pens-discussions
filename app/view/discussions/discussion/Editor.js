@@ -12,7 +12,7 @@ Ext.define('Melisa.pens.view.discussions.discussion.Editor', {
     hidden: true,
     items: [
         {
-            xtype: 'textareafield',
+            xtype: 'textfield',
             placeHolder: 'Add your reply',
             flex: 1,
             listeners: {
@@ -22,7 +22,10 @@ Ext.define('Melisa.pens.view.discussions.discussion.Editor', {
         {
             xtype: 'button',
             text: 'Send',
-            flex: .1
+            flex: .1,
+            listeners: {
+                tap: 'onTapBtnSend'
+            }
         }
     ]
 });

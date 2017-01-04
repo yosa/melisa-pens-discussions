@@ -14,15 +14,32 @@ Ext.define('Melisa.pens.view.discussions.discussion.EditorController', {
         
         var me = this;
         
-        me.getView().down('textareafield').focus();
+        me.getView().down('textfield').focus();
+        
+    },
+    
+    onTapBtnSend: function() {
+        
+        var me = this,
+            discussion = me.getView().down('textfield').getValue();
+        
+        if( Ext.isEmpty(discussion)) {
+            
+            return;
+            
+        }
+        
+        me.createDiscussion(discussion);
         
     },
     
     onKeyupQuestion: function(field, e) {
         
+        var me = this;
+        
         if( e.getKey() === Ext.event.Event.ESC) {
             
-            this.getView().hide();
+            me.getView().hide();
             return;
             
         }
@@ -33,16 +50,22 @@ Ext.define('Melisa.pens.view.discussions.discussion.EditorController', {
             
         }
         
+        me.createDiscussion(field.getValue());
+        
+    },
+    
+    createDiscussion: function(question) {
+        
         var me = this,
             view = me.getView(),
             discussionanswers = view.up().down('discussionanswers');
         
         discussionanswers.show();
         
-        Ext.GlobalEvents.fireEvent('creatediscussion', field.getValue(), discussionanswers);
+        Ext.GlobalEvents.fireEvent('creatediscussion', question, discussionanswers);
         
         view.hide();
-        view.down('textareafield').reset();
+        view.down('textfield').reset();
         
     }
     
