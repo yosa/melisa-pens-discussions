@@ -40,6 +40,25 @@ Ext.define('Melisa.pens.view.discussions.WrapperController', {
         
     },
     
+    onTapBtnSend: function() {
+        
+        var me = this,
+            textfield = me.getView().down('textfield'),
+            discussion = textfield.getValue();
+        
+        if( Ext.isEmpty(discussion)) {
+            
+            return;
+            
+        }
+        
+        me.createDiscussion(discussion);
+        
+        textfield.reset();
+        textfield.focus();
+        
+    },
+    
     createDiscussion: function(question, parent) {
         
         var me = this,

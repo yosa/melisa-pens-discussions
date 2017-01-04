@@ -46,7 +46,10 @@ Ext.define('Melisa.pens.view.discussions.Wrapper', {
                 },
                 {
                     xtype: 'button',
-                    text: 'Send'
+                    text: 'Send',
+                    listeners: {
+                        tap: 'onTapBtnSend'
+                    }
                 }
             ]
         },
