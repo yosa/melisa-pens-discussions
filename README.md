@@ -9,5 +9,17 @@ or edit http://codepen.io/yosa/full/LxEYML/
 
 # Screenshot
 
-Login
+<p align="center">
+  <b>Login</b><br>
 ![alt tag](https://raw.githubusercontent.com/yosa/melisa-pens-discussions/master/screenshot/login.png)
+</p>
+
+<p align="center">
+  <b>Logged in</b><br>
+![alt tag](https://raw.githubusercontent.com/yosa/melisa-pens-discussions/master/screenshot/loggedIn.png)
+</p>
+
+<p align="center">
+  <b>Discussions</b><br>
+![alt tag](https://raw.githubusercontent.com/yosa/melisa-pens-discussions/master/screenshot/discussions2.png)
+</p>
