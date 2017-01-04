@@ -10,4 +10,4 @@ or edit http://codepen.io/yosa/full/LxEYML/
 # Screenshot
 
 Login
-[alt tag](https://raw.githubusercontent.com/yosa/melisa-pens-menu-and-profile/screenshot/login.png)
+[alt tag](https://raw.githubusercontent.com/yosa/melisa-pens-discussions/screenshot/login.png)
